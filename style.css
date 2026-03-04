@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text: 1.5rem;
+    --head: calc(1rem +3vw);
+    --bg-color:#f6b93b;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    
+   
+}
+
+.hero-section{
+    min-height: 100vh;
+    background: linear-gradient(black 0.2rem, transparent),url("./pictures/pic1.avif") no-repeat center center/cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1.5rem;
+    color: white;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+}
+.navbar ul li a:hover{
+ border:2px solid white;
+}
+.hero-text{
+    padding: 5rem 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+}
+
+.hero-text p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.hero-text h2{
+    font-size: var(--head);
+}
+.hero-text p{
+    font-size: 1.8rem;
+}
+.hero-text a{
+    background: var(--bg-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    margin: 0.9rem auto;
+    display: block;
+}
+.hero-text a:hover{
+    opacity:0.8;
+}
