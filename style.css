@@ -17,7 +17,7 @@ body{
 
 .hero-section{
     min-height: 100vh;
-    background: linear-gradient(black 0.2rem, transparent),url("./pic1.avif") no-repeat center center/cover;
+    background: linear-gradient(black 0.2rem, transparent),url("pic1.avif") no-repeat center center/cover;
 }
 .navbar{
     display: flex;
@@ -85,3 +85,4 @@ body{
     opacity:0.8;
 
 }
+
